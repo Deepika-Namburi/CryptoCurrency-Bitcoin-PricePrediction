@@ -59,7 +59,7 @@ def predict():
         x_data.append(scaled_data[i - 100:i])
         y_data.append(scaled_data[i])
 
-    x_data = np.array(x_data)
+    x_data = np.array(x_data).reshape(-1, 100, 1)
     y_data = np.array(y_data)
 
     # Predictions
