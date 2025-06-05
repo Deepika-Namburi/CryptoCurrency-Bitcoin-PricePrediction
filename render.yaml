@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: crypto-predictor
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    build:
+      pythonVersion: 3.10.13
