@@ -3,7 +3,7 @@ pandas
 numpy
 yfinance
 scikit-learn
-matplotlib
+matplotlib==3.6.3
 gunicorn
 tensorflow==2.11.0
 keras==2.11.0
