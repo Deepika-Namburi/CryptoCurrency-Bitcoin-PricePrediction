@@ -5,5 +5,5 @@ yfinance
 scikit-learn
 matplotlib==3.6.3
 gunicorn
-tensorflow==2.11.0
-keras==2.11.0
+tensorflow==2.15.0
+keras==2.15.0
